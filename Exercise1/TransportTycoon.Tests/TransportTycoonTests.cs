@@ -20,6 +20,7 @@ namespace TransportTycoon.Tests
         [InlineData("AAAABBBB", 31)]
         [InlineData("AABABBAB", 33)]
         [InlineData("ABBBABAAABBB", 41)]
+        [InlineData("AAAA", 29)]
         public void DeliverToDestinationA(string destinations, int expected)
         {
             // arrange
